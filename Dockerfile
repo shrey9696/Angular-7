@@ -1,5 +1,5 @@
 # Alpine Linux with OpenJDK JRE
-FROM localhost:5000/javaangularimage
+FROM openjdk:8-jre-alpine
 
 # Copy war file
 COPY  target/product-list-0.0.1-SNAPSHOT.jar /users.war
