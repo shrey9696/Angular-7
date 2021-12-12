@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  java-angularapp:
+    image: localhost:5000/javaangularimage
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: javaangularcompose
+    ports: 
+        - 8089:8080
+
