@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   java-angularapp:
-    image: localhost:5000/javaangularimage
+    image: localhost:5000/project:latest
     build:
       context: .
       dockerfile: Dockerfile
