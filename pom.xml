@@ -80,10 +80,10 @@
 				</executions>
 				<configuration>
 					<executable>maven</executable>
-<!-- 					<workingDirectory>frontend</workingDirectory> 
+					<workingDirectory>frontend</workingDirectory> 
  					<arguments>
 						<argument>build</argument>
-					</arguments>  -->
+					</arguments>  
 				</configuration>
 			</plugin> -->
 			<plugin>
