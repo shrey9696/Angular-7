@@ -78,13 +78,13 @@
 						</goals>
 					</execution>
 				</executions>
-<!-- 				<configuration>
-					<executable>ng</executable>
-					<workingDirectory>frontend</workingDirectory>
+				<configuration>
+					<executable>mvn</executable>
+<!-- 					<workingDirectory>frontend</workingDirectory> -->
 					<arguments>
-						<argument>build</argument>
+						<argument>verify</argument>
 					</arguments>
-				</configuration> -->
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
