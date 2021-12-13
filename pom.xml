@@ -79,11 +79,11 @@
 					</execution>
 				</executions>
 				<configuration>
-					<executable>ng</executable>
-					<workingDirectory>frontend</workingDirectory> 
+					<executable>maven</executable>
+<!-- 					<workingDirectory>frontend</workingDirectory> 
  					<arguments>
 						<argument>build</argument>
-					</arguments> 
+					</arguments>  -->
 				</configuration>
 			</plugin>
 			<plugin>
